@@ -1,0 +1,124 @@
+/*
+ვერ ვიტყვი რომ ბოლომდე ჩემი ნამუშევარია, იუთუბი და გუგლი მოვიხმარე
+*/
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "inter", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #f0f2f5;
+}
+.header {
+    text-align: center;
+    width: 420px;
+    margin: 0% auto;
+    margin-top: 30px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #1877f2;
+}
+.header > p {
+    font-size: 22px;
+    padding-top: 18px;
+}
+.padding-box {
+    background-color: white;
+    width: 360px;
+    margin: 0% auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 15px -1px rgba(0, 0, 0, 0.2);
+}
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+input[type="email"]:focus {
+    outline: 1px solid #1877f2;
+    caret-color: #1877f2;
+}
+input[type="email"]:focus::placeholder {
+    color: lightgrey;
+}
+input[type="password"]:focus::placeholder {
+    color: lightgrey;
+}
+input[type="password"]:focus {
+    outline: 1px solid #1877f2;
+    caret-color: #1877f2;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 11px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #1877f2;
+    margin-top: 5px;
+}
+.forgot {
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    color: #1877f2;
+    margin: 15px 0px;
+    margin-bottom: 25px;
+}
+.line {
+    border-bottom: 1px solid lightgray;
+}
+button {
+    background-color: #42b72a;
+    color: white;
+    display: block;
+    margin: 0% auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.second-content > p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.second-content > p > a {
+    color: black;
+    font-weight: bolder;
+}
+.second-content > p > a:hover {
+    text-decoration: underline;
+}
+@media only screen and (min-width: 1200px) {
+    .all-content {
+        max-width: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10vh 10vw 10vh 10vw;
+    }
+    .second-content {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        margin-right: 10vw;
+    }
+}
